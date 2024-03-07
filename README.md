@@ -1,0 +1,1 @@
+https://opus.nlpl.eu/TED2020/en&de/v1/TED2020

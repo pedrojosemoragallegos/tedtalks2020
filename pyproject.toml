@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "tedtalks2020"
+version = "0.1.0"
+description = ""
+authors = ["Pedro José <pedrojosemoragallegos@outlook.de>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+requests = "^2.31.0"
+pandas = "^2.2.1"
+transformers = "^4.38.2"
+torch = "^2.2.1"
+seaborn = "^0.13.2"
+tqdm = "^4.66.2"
+
+
+[tool.poetry.group.dev.dependencies]
+ipykernel = "^6.29.3"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
